@@ -20,12 +20,10 @@ const Form = (props) => {
     event.preventDefault()
 
     console.log(name, URL)
-    
+
     props.notifyParent({ name, URL})
 
-    /*
-            TODO - Logic for calling props to handle submission and setting state changes
-        */
+
   }
 
   return (
