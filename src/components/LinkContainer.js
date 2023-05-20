@@ -8,11 +8,15 @@ const LinkContainer = (props) => {
     /*
             TODO - Create logic for setting the state to filter array and remove favLink at index
         */
+       
   }
 
+
+  
   const handleSubmit = (favLink) => {
     
     setLinks([...links, favLink])
+    // postLink(favLink) 
   }
 
   return (
