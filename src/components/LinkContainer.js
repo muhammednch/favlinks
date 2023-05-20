@@ -6,19 +6,16 @@ const LinkContainer = (props) => {
   const [links, setLinks] = useState([])
   
   const handleRemove = (index) => {
-    setLinks([index])
-    /*
-            TODO - Create logic for setting the state to filter array and remove favLink at index
-        */
+      const removeLinks = [...links]
+      removeLinks.splice(index, 1)
+      setLinks(removeLinks)
        
   }
 
 
   
   const handleSubmit = (favLink) => {
-    
     setLinks([...links, favLink])
-    // postLink(favLink) 
   }
 
   return (
