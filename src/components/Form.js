@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { Component } from "react";
 
 const Form = () => {
   const handleChange = (event) => {
@@ -19,6 +19,7 @@ const Form = () => {
   return (
     <form>
       {/* TODO - Logic for returning a form element with labels and inputs for link name and URL */}
+      <input type="text" /> 
     </form>
   )
 }
