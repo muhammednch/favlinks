@@ -18,8 +18,11 @@ const Form = () => {
 
   return (
     <form>
-      {/* TODO - Logic for returning a form element with labels and inputs for link name and URL */}
-      <input type="text" /> 
+      <input type={'text'} id = {'wheredoyouwanttogo'}/> 
+
+      <input type={'text'} id = {'URL'}/>
+
+      <input type={'submit'} />
     </form>
   )
 }
